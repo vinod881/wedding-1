@@ -728,10 +728,23 @@ body {
   padding: 0 10px;
 }
 
-@media (max-width: 480px) {
-  .hero-couple { flex-wrap: wrap; gap: 0; }
-  .hero-couple-decor { display: none; }
-  .hero-couple-weds-line { order: 3; width: 100%; margin-top: 4px; }
+@media (max-width: 768px) {
+  .hero-couple {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .hero-couple-decor {
+    display: none;
+  }
+  .hero-couple-weds-line {
+    width: auto;
+    margin: 6px 0;
+  }
+  .hero-couple-weds {
+    top: 0;
+  }
 }
 
 .hero-couple-name {
