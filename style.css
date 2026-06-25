@@ -1759,6 +1759,29 @@ body {
   color: var(--black);
 }
 
+.event-map-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 24px;
+  border: 1px solid var(--gold);
+  color: var(--gold-light);
+  text-decoration: none;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all var(--transition);
+  width: fit-content;
+  position: relative;
+  z-index: 5;
+}
+
+.event-map-btn:hover {
+  background: var(--gold);
+  color: var(--black);
+  box-shadow: 0 0 15px rgba(201, 168, 76, 0.2);
+}
+
 /* ============================================
    GALLERY SECTION
    ============================================ */
